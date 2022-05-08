@@ -1,4 +1,5 @@
 ﻿using System;
+using SubProject;
 
 namespace MainProject
 {
@@ -6,7 +7,10 @@ namespace MainProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
+
+            var str = Class1.TestFunction();
+            Console.WriteLine(str);
         }
     }
 }
