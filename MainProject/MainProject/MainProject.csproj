@@ -6,6 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SubProject\SubProject\SubProject\SubProject.csproj" />
+    <PackageReference Include="SubProject" Version="1.0.4" />
   </ItemGroup>
 </Project>
