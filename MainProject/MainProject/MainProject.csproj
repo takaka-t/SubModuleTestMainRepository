@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MoreProject" Version="1.0.0" />
     <PackageReference Include="SubProject" Version="1.0.6" />
   </ItemGroup>
 </Project>
